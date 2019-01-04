@@ -6,7 +6,6 @@
 </head>
 <script type="text/javascript">
     var socket;
-
     if(window.WebSocket){
         socket = new WebSocket("ws://localhost:8819/query");
         socket.onmessage=function (event) {
